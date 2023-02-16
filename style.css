@@ -5,5 +5,23 @@ img
 }
 
 h1{
-    color: blue;
+    color: red;
 }
+
+
+  .flex-container {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    padding: 16px;
+    max-width:300px;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 10px;
+   
+  }
+  .item{
+    border: 4px sandybrown;
+    background: skyblue;
+  }
